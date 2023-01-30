@@ -1,20 +1,22 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React from 'react';
 import {
-  Table,
   Button,
   Container,
+  Form,
+  FormFeedback,
+  FormGroup,
+  Input,
+  Label,
   Modal,
   ModalBody,
-  ModalHeader,
   ModalFooter,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  FormFeedback,
-} from "reactstrap";
-import React from "react";
-import axiosService from "../services/axios";
+  ModalHeader,
+  Table,
+} from 'reactstrap';
+
+import axiosService from '../services/axios';
 
 class TableProduct extends React.Component {
   state = {

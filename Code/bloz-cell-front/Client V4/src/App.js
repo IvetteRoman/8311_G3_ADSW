@@ -1,8 +1,10 @@
-import "./App.css";
-import { Routes, Route } from "react-router-dom";
-import ProductoSalida from "./pages/productoSalida";
-import IngresoProducto from "./pages/ingresoProducto";
-import NavBar from "./components/Navbar";
+import './App.css';
+
+import { Route, Routes } from 'react-router-dom';
+
+import NavBar from './components/Navbar';
+import IngresoProducto from './pages/ingresoProducto';
+import ProductoSalida from './pages/productoSalida';
 
 function App() {
   return (

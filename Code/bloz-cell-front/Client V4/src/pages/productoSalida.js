@@ -1,17 +1,10 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import "../App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import {
-  Table,
-  Button,
-  Container,
-  Modal,
-  ModalBody,
-  ModalHeader,
-  ModalFooter,
-} from "reactstrap";
-import React from "react";
-import axios from "axios";
+import '../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import axios from 'axios';
+import React from 'react';
+import { Button, Container, Modal, ModalBody, ModalFooter, ModalHeader, Table } from 'reactstrap';
 
 const url = "http://localhost:3001/api/salida";
 
